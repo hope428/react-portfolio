@@ -2,24 +2,25 @@ import { render } from "@testing-library/react";
 import React from "react";
 import { useState } from "react";
 import Navbar from "./Navbar";
-import Home from "./pages/Home"
 import About from "./pages/About"
-import Portfolio from "./pages/Portfolio"
+import Work from "./pages/Work"
 import Resume from "./pages/Resume"
+import Contact from "./pages/Contact"
+
 
 export default function Portfolio() {
 
-    const [page, setPage] = useState('home')
+    const [page, setPage] = useState('about')
 
     const renderPage = () => {
-        if(page === 'home'){
-            return <Home />
-        } else if (page === 'portfolio'){
+        if (page === 'about'){
             return <About />
         } else if (page === 'resume'){
-            console.log("at resume page");
+            return <Resume />
+        } else if (page === 'work') {
+            return <Work />
         } else {
-            console.log("at contact");
+            return <Contact />
         }
     }
 
@@ -27,7 +28,7 @@ export default function Portfolio() {
 
     return (
         <>
-            <Navbar />
+            <Navbar handlePageChange={handlePageChange} page={page}/>
             {renderPage()}
         </>
     )
