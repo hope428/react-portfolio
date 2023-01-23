@@ -1,13 +1,10 @@
-import { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar'
+import Portfolio from './components/Portfolio'
 
 function App() {
 
-  const [page, setPage] = useState('home')
-
   return (
-    <Navbar />
+    <Portfolio />
   )
 }
 
