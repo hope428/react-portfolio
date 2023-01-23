@@ -1,9 +1,10 @@
 body {
-  background-color: #27252b;
+  background-color: #19181c;
   color: #dadada;
 }
 
 .container {
+  background-color: #27252b;
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -11,5 +12,5 @@ body {
   padding: 1.5rem;
   border: 1px solid white;
   border-radius: 12px;
-  box-shadow: 1px 1px 5px rgb(248, 49, 212), 1px 1px 5px rgb(248, 49, 212);;
+  box-shadow: 1px 1px 5px rgb(248, 49, 212), 1px 1px 5px rgb(248, 49, 212);
 }

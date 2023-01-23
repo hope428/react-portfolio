@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="container">
       <h1>About Me</h1>
-      <img className="bioImg" src={bioImg} />
+      <img className="bioImg" src={bioImg} alt="Leon outside smiling"/>
       <p>
         Hey, my name is Leon Forsythe. I am a full-stack software developer
         passionate about solving problems and making cool user experiences. I'm
