@@ -18,6 +18,15 @@ body {
   font-size: 1.2rem;
 }
 
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  text-shadow: 1px 1px 10px rgb(248, 49, 212), 1px 1px 10px rgb(248, 49, 212);
+}
+
 .active {
   position: relative;
 }
