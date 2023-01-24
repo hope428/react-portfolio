@@ -20,7 +20,7 @@ export default function Navbar({ handlePageChange, page }) {
             Contact
           </a>
         </li>
-        <li className={page === 'about' ? 'resume' : ''}>
+        <li className={page === 'resume' ? 'active' : ''}>
           <a href="#resume" onClick={() => handlePageChange("resume")}>
             Resume
           </a>
