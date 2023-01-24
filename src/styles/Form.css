@@ -39,4 +39,5 @@ button {
 button:hover {
   box-shadow: 1px 1px 5px white;
   transform: ease-in-out;
+  cursor: pointer;
 }
