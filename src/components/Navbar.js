@@ -4,6 +4,7 @@ import '../styles/Navbar.css'
 export default function Navbar({ handlePageChange, page }) {
   return (
     <nav className="navbar">
+      <h1>Leon Forsythe</h1>
       <ul>
         <li className={page === 'about' ? 'active' : ''}>
           <a href="#about" onClick={() => handlePageChange("about")}>

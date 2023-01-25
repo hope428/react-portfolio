@@ -24,6 +24,7 @@ export default function Resume() {
           <li className="skill-list-item">Handlebars</li>
           <li className="skill-list-item">React</li>
           <li className="skill-list-item">Responsive Web Development</li>
+          <li className="skill-list-item">Webpack</li>
         </ul>
       </section>
 

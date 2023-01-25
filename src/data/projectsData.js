@@ -48,6 +48,22 @@ const projects = [
     deployed: "https://hope428.github.io/meal-planner/",
     repo: "https://github.com/hope428/meal-planner/",
   },
+  {
+    title: "Text Editor PWA",
+    technologies: ["Webpack", "Manifest.json", "IndexedDB"],
+    description: "This is a basic text editor PWA, this is compiled with Webpack and downloadable as a PWA. The user's notes are saved with IndexedDB",
+    imgSrc: "https://raw.githubusercontent.com/hope428/text-editor-pwa/main/pacific-citadel-98307.herokuapp.com_.png",
+    deployed: "https://pacific-citadel-98307.herokuapp.com/",
+    repo: "https://github.com/hope428/text-editor-pwa",
+  },
+  {
+    title: "Weather Dashboard",
+    technologies: ["HTML", "CSS", "Localstorage", "Javascript", "Third-party API"],
+    description: "A simple weather dashboard that allows you to search for a city, save previous cities, and retrieves the weather data for a 5-day forecast.",
+    imgSrc: "https://raw.githubusercontent.com/hope428/weather-dashboard/main/assets/images/screenshot.png",
+    deployed: "https://hope428.github.io/weather-dashboard/",
+    repo: "https://github.com/hope428/weather-dashboard",
+  },
 ];
 
 export default projects;

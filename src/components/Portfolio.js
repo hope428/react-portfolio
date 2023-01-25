@@ -5,6 +5,7 @@ import About from "./pages/About"
 import Work from "./pages/Work"
 import Resume from "./pages/Resume"
 import Contact from "./pages/Contact"
+import Footer from "./Footer";
 
 
 export default function Portfolio() {
@@ -29,6 +30,7 @@ export default function Portfolio() {
         <>
             <Navbar handlePageChange={handlePageChange} page={page}/>
             {renderPage()}
+            <Footer />
         </>
     )
 }
