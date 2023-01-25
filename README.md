@@ -8,7 +8,7 @@ I made this portfolio to showcase my react skills, and some other projects I've 
 
 [Deployed application 🚀 ](https://hope428.github.io/react-portfolio/)
 
-![Portfolio preview]()
+![Portfolio preview](./images/screenshot.png)
 
 ## Credits
 - React
