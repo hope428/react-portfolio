@@ -14,5 +14,5 @@ body {
   padding: 1.5rem;
   border: 1px solid rgb(248, 49, 212);
   border-radius: 12px;
-  box-shadow: 1px 1px 5px rgb(248, 49, 212), 1px 1px 5px rgb(248, 49, 212);
+  box-shadow: 1px 1px 10px rgb(248, 49, 212);
 }

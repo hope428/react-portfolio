@@ -4,7 +4,7 @@ a {
 }
 
 a:hover {
-  text-shadow: 1px 1px 10px rgb(248, 49, 212), 1px 1px 10px rgb(248, 49, 212);
+  text-shadow: 1px 1px 10px rgb(248, 49, 212);
 }
 
 .skill-list {
