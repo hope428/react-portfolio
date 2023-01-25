@@ -7,7 +7,7 @@ export default function Work(){
     return (
         <>
         <h1>My Projects</h1>
-        <div className="project-container">
+        <div className="container">
             {projectsData.map((item) => {
                return <Project item={item}/>
             })}

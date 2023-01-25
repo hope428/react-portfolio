@@ -24,7 +24,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="container">
+    <div className="container column about">
       <h1>Contact Me</h1>
       <form onSubmit={handleFormSubmit}>
         <input

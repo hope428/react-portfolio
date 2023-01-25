@@ -4,16 +4,16 @@ import PDF from "../../assets/resume.pdf";
 
 export default function Resume() {
   return (
-    <div className="container">
+    <div className="column">
       <h1>
-        View my
-        <a href={PDF} target="_blank">
+        Click to View my
+        <a className="highlight" href={PDF} target="_blank">
           {" "}
           Resume
         </a>
       </h1>
 
-      <section className="container skill-container">
+      <section className="container skill-container column">
         <h2>Front-end Skills</h2>
         <ul className="skill-list">
           <li className="skill-list-item">HTML</li>
@@ -28,7 +28,7 @@ export default function Resume() {
         </ul>
       </section>
 
-      <section className="container skill-container">
+      <section className="container skill-container column">
         <h2>Back-end Skills</h2>
         <ul className="skill-list">
           <li className="skill-list-item">Node.js</li>
@@ -40,7 +40,7 @@ export default function Resume() {
         </ul>
       </section>
 
-      <section className="container skill-container">
+      <section className="container skill-container column">
         <h2>Other Skills</h2>
         <ul className="skill-list">
           <li className="skill-list-item">Git</li>

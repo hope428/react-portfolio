@@ -3,7 +3,7 @@ a {
   color: white;
 }
 
-a:hover {
+.highlight {
   text-shadow: 1px 1px 10px rgb(248, 49, 212);
 }
 
@@ -15,7 +15,10 @@ a:hover {
 .skill-container {
   align-items: flex-start;
   min-width: 55%;
+  max-width: 55%;
   padding: 1.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 .skill-list-item {

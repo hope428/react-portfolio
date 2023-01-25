@@ -4,7 +4,7 @@ import "../../styles/About.css";
 
 export default function About() {
   return (
-    <div className="container">
+    <div className="container column about">
       <h1>About Me</h1>
       <img className="bioImg" src={bioImg} alt="Leon outside smiling"/>
       <p>

@@ -1,11 +1,12 @@
-import './App.css';
-import Portfolio from './components/Portfolio'
+import "./App.css";
+import Portfolio from "./components/Portfolio";
 
 function App() {
-
   return (
-    <Portfolio />
-  )
+    <main>
+      <Portfolio />
+    </main>
+  );
 }
 
 export default App;
