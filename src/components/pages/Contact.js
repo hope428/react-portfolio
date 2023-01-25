@@ -26,28 +26,31 @@ export default function Contact() {
   return (
     <div className="container">
       <h1>Contact Me</h1>
-      <form>
+      <form onSubmit={handleFormSubmit}>
         <input
           value={contactName}
           name="contactName"
           onChange={handleChange}
           type="text"
           placeholder="Name"
+          required
         />
         <input
           value={email}
           name="email"
           onChange={handleChange}
-          type="text"
+          type="email"
           placeholder="Email"
+          required
         />
         <textarea
           value={message}
           name="message"
           onChange={handleChange}
           placeholder="Enter message..."
+          required
         ></textarea>
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="submit">
           Submit
         </button>
       </form>
