@@ -57,12 +57,12 @@ const projects = [
     repo: "https://github.com/hope428/text-editor-pwa",
   },
   {
-    title: "Weather Dashboard",
-    technologies: ["HTML", "CSS", "Localstorage", "Javascript", "Third-party API"],
-    description: "A simple weather dashboard that allows you to search for a city, save previous cities, and retrieves the weather data for a 5-day forecast.",
-    imgSrc: "https://raw.githubusercontent.com/hope428/weather-dashboard/main/assets/images/screenshot.png",
-    deployed: "https://hope428.github.io/weather-dashboard/",
-    repo: "https://github.com/hope428/weather-dashboard",
+    title: "Terminus",
+    technologies: ["React", "Express", "Node", "GraphQL", "MongoDB", "Chakra", "Stripe"],
+    description: "A Zombie Apocalypse themed mock e-commerce website. Database is MongoDB, Backend is Express Node, and GraphQL. Stripe integration is functional.",
+    imgSrc: "https://github.com/hope428/terminus/raw/main/client/public/img/homepage.png",
+    deployed: "https://frozen-brushlands-93314.herokuapp.com/",
+    repo: "https://github.com/hope428/terminus",
   },
 ];
 
