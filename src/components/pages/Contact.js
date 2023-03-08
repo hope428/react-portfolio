@@ -22,7 +22,7 @@ export default function Contact() {
     } catch (error) {
       console.log(error.text);
     }
-    setSent(true)
+    setSent(true);
   };
 
   const handleChange = (e) => {
@@ -38,40 +38,42 @@ export default function Contact() {
   };
 
   return (
-    <div className="container column about">
-      {sent ? (
-        <h1>Your message has been sent!</h1>
-      ) : (
-        <>
-          <h1>Contact Me</h1>
-          <form ref={form} onSubmit={handleFormSubmit}>
-            <input
-              value={contactName}
-              name="contactName"
-              onChange={handleChange}
-              type="text"
-              placeholder="Name"
-              required
-            />
-            <input
-              value={email}
-              name="email"
-              onChange={handleChange}
-              type="email"
-              placeholder="Email"
-              required
-            />
-            <textarea
-              value={message}
-              name="message"
-              onChange={handleChange}
-              placeholder="Enter message..."
-              required
-            ></textarea>
-            <button type="submit">Submit</button>
-          </form>
-        </>
-      )}
-    </div>
+    <section>
+      <div className="container column about">
+        {sent ? (
+          <h1>Your message has been sent!</h1>
+        ) : (
+          <>
+            <h1>Contact Me</h1>
+            <form ref={form} onSubmit={handleFormSubmit}>
+              <input
+                value={contactName}
+                name="contactName"
+                onChange={handleChange}
+                type="text"
+                placeholder="Name"
+                required
+              />
+              <input
+                value={email}
+                name="email"
+                onChange={handleChange}
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                value={message}
+                name="message"
+                onChange={handleChange}
+                placeholder="Enter message..."
+                required
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </>
+        )}
+      </div>
+    </section>
   );
 }

@@ -1,28 +1,29 @@
 import React from "react";
 import '../styles/Navbar.css'
+import PDF from "../assets/resumefile.pdf";
 
-export default function Navbar({ handlePageChange, page }) {
+export default function Navbar() {
   return (
     <nav className="navbar">
       <h1>Leon Forsythe</h1>
       <ul>
-        <li className={page === 'about' ? 'active' : ''}>
-          <a href="#about" onClick={() => handlePageChange("about")}>
+        <li>
+          <a href="#about">
             About Me
           </a>
         </li>
-        <li className={page === 'work' ? 'active' : ''}>
-          <a href="#work" onClick={() => handlePageChange("work")}>
+        <li>
+          <a href="#work">
             Portfolio
           </a>
         </li>
-        <li className={page === 'contact' ? 'active' : ''}>
-          <a href="#contact" onClick={() => handlePageChange("contact")}>
+        <li>
+          <a href="#contact">
             Contact
           </a>
         </li>
-        <li className={page === 'resume' ? 'active' : ''}>
-          <a href="#resume" onClick={() => handlePageChange("resume")}>
+        <li>
+          <a href={PDF} target="_blank">
             Resume
           </a>
         </li>

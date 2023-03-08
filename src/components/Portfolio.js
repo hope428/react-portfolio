@@ -10,26 +10,13 @@ import Footer from "./Footer";
 
 export default function Portfolio() {
 
-    const [page, setPage] = useState('about')
-
-    const renderPage = () => {
-        if (page === 'about'){
-            return <About />
-        } else if (page === 'resume'){
-            return <Resume />
-        } else if (page === 'work') {
-            return <Work />
-        } else {
-            return <Contact />
-        }
-    }
-
-    const handlePageChange = (selectedPage) => {setPage(selectedPage)}
 
     return (
         <>
-            <Navbar handlePageChange={handlePageChange} page={page}/>
-            {renderPage()}
+            <Navbar />
+            <About />
+            <Work />
+            <Contact />
             <Footer />
         </>
     )

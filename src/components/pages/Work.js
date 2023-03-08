@@ -5,13 +5,13 @@ import "../../styles/Project.css"
 
 export default function Work(){
     return (
-        <>
+        <section>
         <h1>My Projects</h1>
         <div className="container">
             {projectsData.map((item) => {
                return <Project item={item}/>
             })}
         </div>
-        </>
+        </section>
     )
 }

@@ -4,7 +4,6 @@ import "../styles/Project.css";
 export default function Project({ item }) {
   return (
     <div className="project">
-      <h2>Scroll Here!</h2>
       <img src={item.imgSrc} alt="preview of project" className="project-img" />
       <div className="project-info">
         <h1 className="project-title">{item.title}</h1>

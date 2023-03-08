@@ -4,6 +4,7 @@ import "../../styles/About.css";
 
 export default function About() {
   return (
+    <section>
     <div className="container column about">
       <h1>About Me</h1>
       <img className="bioImg" src={bioImg} alt="Leon outside smiling"/>
@@ -21,5 +22,6 @@ export default function About() {
         <i class="fa-brands fa-node"></i>
       </span>
     </div>
+    </section>
   );
 }

@@ -3,6 +3,7 @@ body {
   background-color: #19181c;
   color: #dadada;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -26,6 +27,13 @@ main {
   min-height: 100vh;
 }
 
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .column {
   flex-direction: column!important;
