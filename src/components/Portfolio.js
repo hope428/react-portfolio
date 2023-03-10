@@ -5,6 +5,7 @@ import Work from "./pages/Work"
 import Contact from "./pages/Contact"
 import Footer from "./Footer";
 import Header from "./Header";
+import Skills from "./Skills";
 
 
 export default function Portfolio() {
@@ -14,8 +15,9 @@ export default function Portfolio() {
         <>
             <Navbar />
             <Header />
+            <Skills />
+            <Work />
             {/* <About /> */}
-            {/* <Work /> */}
             {/* <Contact /> */}
             <Footer />
         </>
