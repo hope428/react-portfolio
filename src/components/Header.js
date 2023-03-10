@@ -6,6 +6,7 @@ export default function Header(){
         <section className="header">
             <span className="typewriter introduction"><h1>Hi, I'm Leon Forsythe.</h1></span>
             <span className="typewriter subtitle">Full-Stack Developer.</span>
+            <div className="arrow-container"><span className="arrow"></span></div>
         </section>
     )
 }

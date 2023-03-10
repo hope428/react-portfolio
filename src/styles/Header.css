@@ -1,6 +1,6 @@
 .typewriter h1{
     overflow: hidden;
-    border-right: .15em solid rgb(165, 107, 226); /* The typwriter cursor */
+    border-right: .10em solid rgb(0, 0, 0); /* The typwriter cursor */
     white-space: nowrap;
     margin: 0 auto; 
     letter-spacing: .15em; 
@@ -17,5 +17,45 @@
 
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(165, 107, 226); }
+    50% { border-color: rgb(0, 0, 0); }
+  }
+
+
+  .subtitle {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+  }
+
+  .arrow-container {
+    animation-name: floating;
+    animation-duration: 3s;
+    position: absolute;
+    bottom: 5rem;
+    justify-content: center;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+  .header {
+    top: -5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }

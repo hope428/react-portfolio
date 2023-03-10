@@ -15,9 +15,9 @@ export default function Portfolio() {
         <>
             <Navbar />
             <Header />
-            <About />
-            <Work />
-            <Contact />
+            {/* <About /> */}
+            {/* <Work /> */}
+            {/* <Contact /> */}
             <Footer />
         </>
     )
