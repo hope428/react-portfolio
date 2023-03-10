@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #29252d;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -18,11 +18,11 @@
   
   .navbar a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   
   .navbar a:hover {
-    text-shadow: 1px 1px 10px rgb(248, 49, 212), 1px 1px 10px rgb(248, 49, 212);
+    text-shadow: 1px 1px gray;
   }
   
   .active {
