@@ -5,7 +5,7 @@ import PDF from "../assets/resumefile.pdf";
 export default function Skills() {
   const technologies = [
     "fa-html5",
-    "css3-alt",
+    "fa-css3-alt",
     "fa-js",
     "fa-react",
     "fa-bootstrap",
@@ -21,15 +21,15 @@ export default function Skills() {
     );
   });
   return (
-    <section className="tech">
+    <div className="tech">
       <h1>My Skills</h1>
-      <section className="tech-list">{element}</section>
+      <div className="tech-list">{element}</div>
       <h3>
         To See all my skills, check out my{" "}
         <a className="resume-link" href={PDF} target="_blank">
           resume
         </a>
       </h3>
-    </section>
+    </div>
   );
 }

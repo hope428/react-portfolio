@@ -1,6 +1,6 @@
 .typewriter h1{
     overflow: hidden;
-    border-right: .10em solid rgb(0, 0, 0); /* The typwriter cursor */
+    border-right: .10em solid rgb(0, 0, 0); 
     white-space: nowrap;
     margin: 0 auto; 
     letter-spacing: .15em; 
@@ -50,4 +50,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+  }
+
+  @media screen and (max-width: 500px){
+      .typewriter h1 {
+        font-size: 1.5rem;
+        
+      }
   }
