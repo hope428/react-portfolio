@@ -1,11 +1,26 @@
 .bioImg {
   height: 15em;
   width: 15em;
-  border-radius: 50%;
+  border-radius: 12px;
 }
 
-.email {
-  display: inline;
+.about-header {
+  text-align: center;
+}
+
+.about-section {
+  display: flex;
+  padding: 5rem;
+}
+
+.about-section img{
+  order: 1
+}
+
+.about-section p{
+  line-height: 2;
+  font-weight: bold;
+  margin-right: 1rem;
 }
 
 
