@@ -1,55 +1,64 @@
 .navbar {
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: .5rem 1rem;
-    max-width: 100%;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .navbar a:hover {
-    text-shadow: 1px 1px gray;
-  }
-  
-  .active {
-    position: relative;
-  }
-  
-  .active::after {
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    right: 0;
-    width: 95%;
-    content: "";
-    border: 3px solid #DADADA;
-  }
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  max-width: 100%;
+}
 
-  footer {
-    margin-top: auto;
-  }
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
-  footer a {
-      margin-top: 1px;
-      font-size: 2rem;
-  }
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
 
-  @media screen and (min-width: 800px){
-    .navbar {
-      flex-direction: row;
-    }
+.navbar a:hover {
+  text-shadow: 1px 1px gray;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  width: 95%;
+  content: "";
+  border: 3px solid #dadada;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+.footer a {
+  color: black;
+  margin-top: 1px;
+  font-size: 2rem;
+}
+
+.footer a:hover {
+  color: orange;
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    flex-direction: row;
   }
+}
