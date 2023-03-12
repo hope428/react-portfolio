@@ -24,15 +24,15 @@
 }
 
 
-@media screen and (min-width: 800px){
-  .about {
-    width: 40%;
-    margin: 1rem auto;
-  }
+@media screen and (max-width: 600px){
+    .about-section {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-section img {
+      order: 0
+    }
 }
 
-@media screen and (min-width: 1000px) {
-  .about {
-    width: 30%;
-  }
-}

@@ -18,7 +18,7 @@ export default function Portfolio() {
             <Skills />
             <Work />
             <About />
-            {/* <Contact /> */}
+            <Contact />
             <Footer />
         </>
     )

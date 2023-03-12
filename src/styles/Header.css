@@ -5,6 +5,7 @@
     margin: 0 auto; 
     letter-spacing: .15em; 
     font-size: 2rem;
+    max-width: fit-content;
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -12,7 +13,7 @@
 
   @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 90% }
   }
 
   @keyframes blink-caret {
@@ -35,22 +36,10 @@
     border-width: 0px 1px 1px 0px;
     transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
-  }
-
-  .arrow-container {
-    animation-name: floating;
-    animation-duration: 3s;
     position: absolute;
     bottom: 5rem;
-    justify-content: center;
-    animation-iteration-count: infinite;
   }
 
-  @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
-}
 
   .header {
     top: -5rem;

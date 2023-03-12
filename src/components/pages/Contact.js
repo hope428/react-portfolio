@@ -38,8 +38,7 @@ export default function Contact() {
   };
 
   return (
-    <section>
-      <div className="container column about" id="contact">
+      <div className="contact" id="contact">
         {sent ? (
           <h1>Your message has been sent!</h1>
         ) : (
@@ -74,6 +73,5 @@ export default function Contact() {
           </>
         )}
       </div>
-    </section>
   );
 }
