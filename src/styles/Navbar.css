@@ -12,9 +12,25 @@
 }
 
 .mobile-navbar-menu {
-  position: relative;
-  top: 5rem;
+  position: fixed;
+  top: 3rem;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  line-height: 2;
+  text-align: center;
+  padding-bottom: 1rem;
+  z-index: 1000;
+  transition: .5s;
 }
+
+.mobile-navbar-menu a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
 
 .hamburger {
   display: block;
@@ -32,11 +48,11 @@
   color: white;
 }
 
-.filled ul li a{
+.filled ul li a, .filled a{
   color: white;
 }
 
-.filled ul li a:hover{
+.filled li a:hover{
   text-shadow: -2px 2px orange;
 }
 
@@ -86,5 +102,9 @@
   
   .navbar a {
     display: block;
+  }
+
+  .mobile-navbar-menu {
+    display: none;
   }
 }

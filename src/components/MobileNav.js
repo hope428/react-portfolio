@@ -1,9 +1,13 @@
 import React from "react";
 import PDF from "../assets/resumefile.pdf";
 
-export default function MobileNav() {
+export default function MobileNav({ color }) {
+  const styles = color
+    ? "mobile-navbar-menu filled"
+    : "mobile-navbar-menu transparent";
+
   return (
-    <ul className="mobile-navbar-menu">
+    <ul className={styles}>
       <li>
         <a href="#about">About Me</a>
       </li>

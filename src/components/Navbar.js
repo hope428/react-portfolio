@@ -45,7 +45,7 @@ export default function Navbar() {
         </ul>
         <i onClick={navbarVisible} className="fa-solid fa-bars hamburger"></i>
       </nav>
-      {dropdown && <MobileNav />}
+      {dropdown && <MobileNav color={colorChange} />}
     </>
   );
 }
