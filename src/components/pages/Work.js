@@ -1,29 +1,36 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import Project from "../Project";
 import projectsData from "../../data/projectsData";
 import "../../styles/Project.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Scrollbar } from "swiper";
+import "swiper/css";
+import "swiper/css/scrollbar";
 
 export default function Work() {
   return (
     <section className="projects" id="work">
       <h1>My Projects</h1>
-      <div className="flex-row">
-        <swiper-container>
-          <swiper-slide>
-            <Project item={projectsData[0]} />
-          </swiper-slide>
-          <swiper-slide>
-            <Project item={projectsData[1]} />
-          </swiper-slide>
-          <swiper-slide>
-            <Project item={projectsData[2]} />
-          </swiper-slide>
-
-          <swiper-slide>
-            <Project item={projectsData[3]} />
-          </swiper-slide>
-        </swiper-container>
-      </div>
+      <Swiper
+        scrollbar={{
+          hide: false,
+        }}
+        modules={[Scrollbar]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <Project item={projectsData[0]} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Project item={projectsData[1]} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Project item={projectsData[2]} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Project item={projectsData[3]} />
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 }

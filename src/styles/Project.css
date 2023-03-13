@@ -6,6 +6,7 @@
   height: 30rem;
   width: 25rem;
   overflow-y: scroll;
+  display: block;
 }
 
 .project-img {
@@ -36,22 +37,18 @@
   color: orange;
 }
 
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
 .projects{
   text-align: center;
   margin-bottom: 10rem;
 }
 
-swiper-slide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.swiper {
+  height: 100%;
+  max-width: 100%;
+}
+
+.swiper-slide {
   cursor: grab;
+  display: flex!important;
+  justify-content: center;
 }
