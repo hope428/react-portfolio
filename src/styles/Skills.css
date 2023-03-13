@@ -18,6 +18,10 @@
     animation: fadeIn 5s;
 }
 
+.tech h3 {
+    text-align: center;
+}
+
 .resume-link {
     color: black;
 }
