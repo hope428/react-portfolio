@@ -3,7 +3,7 @@ import Project from "../Project";
 import projectsData from "../../data/projectsData";
 import "../../styles/Project.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Scrollbar } from "swiper";
+import { Scrollbar, Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/scrollbar";
 
@@ -15,7 +15,8 @@ export default function Work() {
         scrollbar={{
           hide: false,
         }}
-        modules={[Scrollbar]}
+        navigation={true}
+        modules={[Scrollbar, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
