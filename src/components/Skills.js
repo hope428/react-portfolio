@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Skills.css";
-import PDF from "../assets/resumefile.pdf";
+import PDF from "../assets/resume-full-stack.pdf";
 
 export default function Skills() {
   const technologies = [

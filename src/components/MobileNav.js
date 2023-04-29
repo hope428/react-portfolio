@@ -1,5 +1,5 @@
 import React from "react";
-import PDF from "../assets/resumefile.pdf";
+import PDF from "../assets/resume-full-stack.pdf";
 
 export default function MobileNav({ color }) {
   const styles = color

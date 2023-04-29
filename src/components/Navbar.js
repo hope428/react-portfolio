@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Navbar.css";
-import PDF from "../assets/resumefile.pdf";
+import PDF from "../assets/resume-full-stack.pdf";
 import MobileNav from './MobileNav.js'
 
 export default function Navbar() {
