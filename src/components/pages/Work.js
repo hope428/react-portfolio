@@ -28,9 +28,6 @@ export default function Work() {
         <SwiperSlide>
           <Project item={projectsData[2]} />
         </SwiperSlide>
-        <SwiperSlide>
-          <Project item={projectsData[3]} />
-        </SwiperSlide>
       </Swiper>
     </section>
   );
