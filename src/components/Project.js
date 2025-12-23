@@ -13,9 +13,6 @@ export default function Project({ item }) {
           <a target="_blank" href={item.repo}>
             <i class="fa-brands fa-github"></i>
           </a>
-          <a target="_blank" href={item.deployed}>
-            <i class="fa-solid fa-rocket"></i>
-          </a>
         </span>
       </div>
     </div>
