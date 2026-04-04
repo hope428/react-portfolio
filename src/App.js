@@ -6,18 +6,23 @@ import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <main>
-      <Navbar />
-      <Header />
-      <Skills />
-      <Work />
-      <About />
-      <Contact />
-      <Footer />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<main>
+            <Navbar />
+            <Header />
+            <Skills />
+            <Work />
+            <About />
+            <Contact />
+            <Footer />
+          </main>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
