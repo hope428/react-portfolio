@@ -10,25 +10,12 @@ import "swiper/css/scrollbar";
 export default function Work() {
   return (
     <section className="projects" id="work">
-      <h1>My Projects</h1>
-      <Swiper
-        scrollbar={{
-          hide: false,
-        }}
-        navigation={true}
-        modules={[Scrollbar, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <Project item={projectsData[0]} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Project item={projectsData[1]} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Project item={projectsData[2]} />
-        </SwiperSlide>
-      </Swiper>
+      <h1>Case Studies</h1>
+
+      <Project item={projectsData[0]} />
+      <Project item={projectsData[1]} />
+      <Project item={projectsData[2]} />
+      
     </section>
   );
 }

@@ -6,7 +6,7 @@ export default function Project({ item }) {
     <div className="project">
       <img src={item.imgSrc} alt="preview of project" className="project-img" />
       <div className="project-info">
-        <h1 className="project-title">{item.title}</h1>
+        <h1 className="project-title"><a href="">{item.title}</a></h1>
         <span className="technologies">{item.technologies.join(" | ")}</span>
         <p>{item.description}</p>
         <span className="links">
