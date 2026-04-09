@@ -23,9 +23,9 @@ function App() {
             <Contact />
             <Footer />
           </main>} />
-          <Route path="/Project 1" element={<Project1/>}/>
-          <Route path="/Project 2" element={<Project2/>}/>
-          <Route path="/Project 3" element={<Project3/>}/>
+          <Route path="/SagaV" element={<Project1/>}/>
+          <Route path="/Travel HQ" element={<Project2/>}/>
+          <Route path="/Ibanez Guitars" element={<Project3/>}/>
       </Routes>
     </BrowserRouter>
   );

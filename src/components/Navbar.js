@@ -3,6 +3,7 @@ import "../styles/Navbar.css";
 import PDF from "../assets/resume-full-stack.pdf";
 import MobileNav from './MobileNav.js'
 import logoImg from "../assets/logoImg.svg";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [colorChange, setColorChange] = useState(false);
@@ -27,7 +28,8 @@ export default function Navbar() {
   return (
     <>
       <nav className={navbarStyles}>
-        <img className="logoImg" src={logoImg} alt="Leon outside smiling" />
+        <Link to={"/"}><img className="logoImg" src={logoImg} alt="Leon Forsythe logo" /></Link>
+        
         <ul className="navbar-links">
           <li>
             <a href="#about">About Me</a>

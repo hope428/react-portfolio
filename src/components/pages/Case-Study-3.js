@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar";
 import "../../styles/CaseStudy.css";
+import Footer from "../Footer";
+
 
 export default function Project3() {
   return (
@@ -51,6 +53,7 @@ export default function Project3() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }
