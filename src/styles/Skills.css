@@ -22,6 +22,13 @@
     animation: fadeIn 5s;
 }
 
+.tech-item:hover {
+    font-size: 3rem;
+    margin: 1rem;
+    color: rgb(147, 0, 0);
+    animation: fadeIn 5s;
+}
+
 .tech h3 {
     text-align: center;
 }
@@ -32,6 +39,7 @@
 
 .resume-link:hover {
     font-style: italic;
+    color: rgb(147, 0, 0);
 }
 
 @keyframes fadeIn {

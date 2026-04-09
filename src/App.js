@@ -4,7 +4,7 @@ import About from "./components/pages/About";
 import Work from "./components/pages/Work";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Skills from "./components/Skills";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
