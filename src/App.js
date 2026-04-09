@@ -14,10 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<main>
             <Navbar />
-            <Header />
+            {/* <Header /> */}
+            <About />
             <Skills />
             <Work />
-            <About />
             <Contact />
             <Footer />
           </main>} />

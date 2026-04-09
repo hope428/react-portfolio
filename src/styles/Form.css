@@ -4,47 +4,7 @@
   align-items: center;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-}
-
-input {
-  height: 2rem;
-  outline: none;
-  border-radius: 4px;
-  margin-bottom: 2rem;
-}
-
-textarea {
-  height: 4rem;
-  margin-bottom: 2rem;
-  outline: none;
-}
-
-input:focus,
-textarea:focus {
-  box-shadow: 4px 4px black;
-  border-radius: 4px;
-}
-
-button {
-  padding: 0.5rem;
-  font-weight: bold;
-  font-size: 1rem;
-  color: black;
-  border: none;
-  border-radius: 2px;
-  transition: 0.5s;
-  margin-bottom: 2rem;
-  box-shadow: 4px 4px black;
-}
-
-button:hover {
-  box-shadow: 4px 4px orange;
-  color: white;
-  background-color: black;
-  transform: ease-in-out;
-  cursor: pointer;
+p {
+  padding: 1rem;
+  text-align: center;
 }
