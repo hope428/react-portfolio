@@ -29,6 +29,20 @@
   padding: .5rem;
 }
 
+.project-title a {
+  text-decoration: none;
+  color: black;
+  font-family: 'JetBrains Mono', sans-serif;
+  transition: .25s;
+}
+
+.project-title a:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: rgb(147, 0, 0);
+  font-family: 'JetBrains Mono', sans-serif;
+}
+
 .links a {
   color: black;
   margin: 0 1rem;
