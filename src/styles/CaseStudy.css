@@ -18,8 +18,28 @@ h1 {
   margin: 10rem 3rem;
 }
 
+img {
+    max-height: 350px;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.top {
+  grid-column: span 2;
+}
+
+.imgs img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 .case-study-overview {
     display: flex;
+    flex-direction: column;
     padding: 1rem;
 }
 
@@ -31,6 +51,7 @@ h1 {
 
 .case-study-process-inner {
     display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 900px) {
