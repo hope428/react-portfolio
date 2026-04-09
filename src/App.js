@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<main>
+        <Route path="/react-portfolio" element={<main>
             <Navbar />
             <About />
             <Work />

@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={navbarStyles}>
-        <Link to={"/"}><img className="logoImg" src={logoImg} alt="Leon Forsythe logo" /></Link>
+        <Link to={"/react-portfolio"}><img className="logoImg" src={logoImg} alt="Leon Forsythe logo" /></Link>
         
         <ul className="navbar-links">
           <li>
