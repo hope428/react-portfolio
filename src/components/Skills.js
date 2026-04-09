@@ -22,7 +22,7 @@ export default function Skills() {
   });
   return (
     <div className="tech">
-      <h1>My Skills</h1>
+      <h1 className="skills-head">My Skills</h1>
       <div className="tech-list">{element}</div>
       <h3>
         To See all my skills, check out my{" "}

@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.contact-head {
+  font-family: "Oswald", sans-serif;
+}
+
 p {
   padding: 1rem;
   text-align: center;

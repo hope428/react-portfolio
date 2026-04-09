@@ -7,6 +7,10 @@
   display: block;
 }
 
+.case-studies-head {
+  font-family: "Oswald", sans-serif;
+}
+
 .project-img {
   border-radius: 12px 12px 0 0;
   width: 100%;

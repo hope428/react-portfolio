@@ -27,9 +27,10 @@
 }
 
 .mobile-navbar-menu a{
-  color: black;
+  color: #362f2f;
   font-weight: bold;
   text-decoration: none;
+  font-family: 'JetBrains Mono', sans-serif;
 }
 
 
@@ -46,7 +47,7 @@
 }
 
 .filled {
-  background-color: black;
+  background-color: #362f2f;
   color: white;
 }
 
@@ -68,6 +69,7 @@
 
 .navbar a {
   text-decoration: none;
+  font-family: "JetBrains Mono", sans-serif;
   color: black;
   transition: .5s;
   display: none;
