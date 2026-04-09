@@ -7,12 +7,22 @@
 .about-header {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  margin-top: 15rem;
+  color: black;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 8px;
+  background-color: #d4be9f;
+  margin: 10rem 3rem;
 }
 
 .about-section {
   display: flex;
   padding: 0 3rem;
+  color: black;
 }
 
 .about-section img{
