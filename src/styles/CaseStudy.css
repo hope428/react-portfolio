@@ -1,0 +1,25 @@
+#case-study-main {
+    margin-top: 10rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.case-study-overview {
+    display: flex;
+    padding: 1rem;
+}
+
+.case-study-process {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.case-study-process-inner {
+    display: flex;
+}
+
