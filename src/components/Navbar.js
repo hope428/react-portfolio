@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/Navbar.css";
 import PDF from "../assets/resume-full-stack.pdf";
 import MobileNav from './MobileNav.js'
+import logoImg from "../assets/logoImg.svg";
 
 export default function Navbar() {
   const [colorChange, setColorChange] = useState(false);
@@ -26,7 +27,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={navbarStyles}>
-        <h1>Leon Forsythe</h1>
+        <img className="logoImg" src={logoImg} alt="Leon outside smiling" />
         <ul className="navbar-links">
           <li>
             <a href="#about">About Me</a>

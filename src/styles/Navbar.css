@@ -1,5 +1,5 @@
 .navbar {
-  background-color: transparent;
+  background-color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  transition: 1s;
+  transition: .5s;
 }
 
 .mobile-navbar-menu {
@@ -20,8 +20,10 @@
   line-height: 2;
   text-align: center;
   padding-bottom: 1rem;
+  margin-top: 3rem;
   z-index: 1000;
   transition: .5s;
+  background-color: white;
 }
 
 .mobile-navbar-menu a{
@@ -40,7 +42,7 @@
 }
 
 .hamburger:hover {
-  text-shadow: 2px 2px orange;
+  text-shadow: 2px 2px rgb(147, 0, 0);
 }
 
 .filled {
@@ -53,7 +55,7 @@
 }
 
 .filled li a:hover{
-  text-shadow: -2px 2px orange;
+  text-shadow: -2px 2px rgb(147, 0, 0);
 }
 
 .navbar ul {
@@ -67,7 +69,7 @@
 .navbar a {
   text-decoration: none;
   color: black;
-  transition: 1s;
+  transition: .5s;
   display: none;
 }
 
@@ -90,7 +92,11 @@
 }
 
 .footer a:hover {
-  color: orange;
+  color: rgb(147, 0, 0);
+}
+
+.logoImg {
+  height: 100px;
 }
 
 @media screen and (min-width: 800px) {
