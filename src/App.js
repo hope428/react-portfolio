@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Project1 from "./components/pages/Case-Study-1";
 import Project2 from "./components/pages/Case-Study-2";
 import Project3 from "./components/pages/Case-Study-3";
+import Project4 from "./components/pages/Case-Study-4"
 // import Header from "./components/Header";
 import Skills from "./components/Skills";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -26,6 +27,7 @@ function App() {
           <Route path="/SagaV" element={<Project1/>}/>
           <Route path="/Travel HQ" element={<Project2/>}/>
           <Route path="/Ibanez Guitars" element={<Project3/>}/>
+          <Route path="/Guitar Chord Mastery" element={<Project4/>}/>
       </Routes>
     </BrowserRouter>
   );

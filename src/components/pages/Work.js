@@ -11,6 +11,7 @@ export default function Work() {
       <Project item={projectsData[0]} />
       <Project item={projectsData[1]} />
       <Project item={projectsData[2]} />
+      <Project item = {projectsData[3]}/>
 
     </section>
   );
